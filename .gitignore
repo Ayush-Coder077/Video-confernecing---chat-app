@@ -1,0 +1,38 @@
+# 🔐 Environment variables
+.env
+.env.local
+.env.*.local
+
+# 📦 Node modules
+node_modules/
+
+# 🧱 Next.js build
+.next/
+out/
+build/
+
+# 🧠 Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🖥 OS files
+.DS_Store
+Thumbs.db
+
+# 📁 Backend build (if any)
+dist/
+
+# 🔥 LiveKit binary (IMPORTANT)
+infra/livekit/*.exe
+infra/livekit/*.zip
+
+# 🧾 Coverage
+coverage/
+
+# 🧩 Vercel
+.vercel
+
+# 🧪 Testing
+*.test.js
+*.spec.js
